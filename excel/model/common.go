@@ -13,6 +13,6 @@ type Word struct {
 	PartsOfSpeech []PartsOfSpeech `json:"partsOfSpeech"`
 	Tag           []string        `json:"tag"`
 	Syn           []string        `json:"syn"`
-	Source        string          `json:"source"`
+	Source        []string        `json:"source"`
 	Example       []string        `json:"example"`
 }
